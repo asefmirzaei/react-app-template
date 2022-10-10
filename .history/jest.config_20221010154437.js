@@ -9,7 +9,7 @@ module.exports = {
     "^react-native$": "react-native-web",
     "^.+\\.module\\.(css|sass|scss)$": "identity-obj-proxy",
     "src/(.*)$": "<rootDir>/src/$1",
-    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/file-mock.ts",
-    "\\.(css|less)$": "<rootDir>/src/__mocks__/style-mock.ts"
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/src/__mocks__/fileMock.js",
+    "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
   }
 };
