@@ -5,10 +5,11 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "prettier",
-    "plugin:prettier/recommended",
-    "plugin:storybook/recommended"
+    // "prettier/react",
+    // "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
   ],
-  plugins: ["react", "prettier", "@typescript-eslint", "jest", "import"],
+  plugins: ["react", "prettier", "@typescript-eslint", "jest"],
   env: {
     browser: true,
     es6: true,
@@ -20,4 +21,4 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error'
   }
-};
+}
