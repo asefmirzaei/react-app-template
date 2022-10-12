@@ -59,6 +59,7 @@ module.exports = {
           '**/.storybook/**/*.*',
         ],
         peerDependencies: true,
+        projectDependencies: false,
       },
     ],
   }
